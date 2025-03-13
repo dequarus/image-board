@@ -1,0 +1,29 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 20px;  /* 🟢 Adds space around the entire page */
+}
+
+h1 {
+    margin-bottom: 15px; /* 🟢 Adds space below the title */
+}
+
+input, textarea, button {
+    margin: 10px 0; /* 🟢 Adds vertical spacing between inputs and buttons */
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* 🟢 Adds space between uploaded items */
+    justify-content: center;
+    margin-top: 20px; /* 🟢 Adds space above the gallery */
+}
+
+.image-item, .note-item {
+    margin: 10px; /* 🟢 Adds space around individual items */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
