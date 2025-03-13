@@ -2,10 +2,12 @@
 const firebaseConfig = {
     apiKey: "AIzaSyABZU75IAEn_5r71W7vxO2aD-Z3WTGJFvM",
     authDomain: "image-board-ec884.firebaseapp.com",
+    databaseURL: "https://image-board-ec884-default-rtdb.firebaseio.com",
     projectId: "image-board-ec884",
     storageBucket: "image-board-ec884.firebasestorage.app",
     messagingSenderId: "458708997242",
-    appId: "1:458708997242:web:9030a0cead83c36f2257c3"
+    appId: "1:458708997242:web:9030a0cead83c36f2257c3",
+    measurementId: "G-MJKB0K45VJ"
 };
 
 firebase.initializeApp(firebaseConfig);
